@@ -33,7 +33,7 @@ function FeatureCourses() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
    {/* map feature product */}
           {featureCourse.map((cou:course)=>(
-            <div className="flex justify-center">
+            <div className="flex justify-center" key={cou.id}>
                <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
      
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
