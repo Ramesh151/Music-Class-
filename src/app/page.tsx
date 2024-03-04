@@ -15,8 +15,8 @@ export default function Home() {
   <FeatureCourses/>
   <Choose/>
   <BoxContainer/>
-   |<Upcomingwebinar/>
-   <Teacher/>
+  <Upcomingwebinar/>
+  <Teacher/>
 </main>
   </>
   );
